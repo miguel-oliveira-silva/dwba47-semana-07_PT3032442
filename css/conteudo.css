@@ -28,29 +28,13 @@ h1{
 	text-align: center;
 }
 
-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    justify-content: center; 
 }
 
 .grid-item {
-  padding: 10px;
-  text-align: center;
+    text-align: center;
 }
-
-.imagem-padrao {
-  width: 150px;
-  height: 100px;
-  object-fit: cover;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.legenda {
-  font-size: 0.9em;
-  color: #555;
-}
-
-
-
