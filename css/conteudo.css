@@ -37,6 +37,7 @@ h1{
 
 .grid-item {
     text-align: center;
+   border:10px solid rgba(0, 0, 0, 0.8);
 }
 .imagem-1{
 	width: 450px;	
